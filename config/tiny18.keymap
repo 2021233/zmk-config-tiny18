@@ -71,7 +71,7 @@
         };
 
         backslash {
-            bindings = <&kp NON_US_BACKSLASH>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <0 1>;
             layers = <1>;
         };
