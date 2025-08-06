@@ -115,9 +115,10 @@
         z {
             bindings = <&kp Z>;
             key-positions = <7 9>;
+            layers = <0>;
         };
 
-        z {
+        z_2 {
             bindings = <&kp Z>;
             key-positions = <7 9 8>;
             layers = <0>;
@@ -129,7 +130,7 @@
             layers = <0>;
         };
 
-        b {
+        b_2 {
             bindings = <&kp B>;
             key-positions = <10 12 11>;
             layers = <0>;
