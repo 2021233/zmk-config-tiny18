@@ -172,7 +172,7 @@
 
         function {
             bindings = <
-&mt LEFT_SHIFT F1  &mt LEFT_CONTROL F2  &mt LEFT_ALT F3  &mt RIGHT_ALT F4  &mt RIGHT_CONTROL F5  &mt RIGHT_SHIFT F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &mt LEFT_GUI F11  &trans  &lt 4 ESCAPE  &mt RG(RIGHT_GUI) EQUAL
+&mt LEFT_SHIFT F1  &mt LEFT_CONTROL F2  &mt LEFT_ALT F3  &mt RIGHT_ALT F4  &mt RIGHT_CONTROL F5  &mt RIGHT_SHIFT F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &mt LEFT_GUI F11  &trans  &lt 4 ESCAPE  &mt RIGHT_GUI EQUAL
             >;
         };
 
