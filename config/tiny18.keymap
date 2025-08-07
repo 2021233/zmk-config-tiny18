@@ -168,10 +168,19 @@
     };
 
     behaviors {
-        hold_tap_override: hold_tap_override {
+        custom_mod_tap: custom_mod_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP_OVERRIDE";
+            label = "CUSTOM_MOD_TAP";
             bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <120>;
+        };
+
+        custom_layer_tap: custom_layer_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CUSTOM_LAYER_TAP";
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <120>;
@@ -183,7 +192,7 @@
 
         default {
             bindings = <
-&mt LEFT_SHIFT W  &mt LEFT_CONTROL E  &mt LEFT_ALT T  &mt RIGHT_ALT Y  &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT M  &kp A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &kp L  &mt LEFT_GUI BACKSPACE  &lt 2 SPACE  &lt 1 ENTER  &mt RIGHT_GUI MINUS
+&custom_mod_tap LEFT_SHIFT W  &custom_mod_tap LEFT_CONTROL E  &custom_mod_tap LEFT_ALT T  &mt RIGHT_ALT Y  &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT M  &kp A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &kp L  &custom_mod_tap LEFT_GUI BACKSPACE  &custom_layer_tap 2 SPACE  &custom_layer_tap 1 ENTER  &mt RIGHT_GUI MINUS
             >;
         };
 
@@ -195,7 +204,7 @@
 
         function {
             bindings = <
-&mt LEFT_SHIFT F1  &mt LEFT_CONTROL F2  &mt LEFT_ALT F3  &mt RIGHT_ALT F4  &mt RIGHT_CONTROL F5  &mt RIGHT_SHIFT F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &kp LEFT_GUI  &trans  &lt 4 ESCAPE  &hold_tap_override RIGHT_GUI EQUAL
+&mt LEFT_SHIFT F1  &mt LEFT_CONTROL F2  &mt LEFT_ALT F3  &mt RIGHT_ALT F4  &mt RIGHT_CONTROL F5  &mt RIGHT_SHIFT F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &kp LEFT_GUI  &trans  &lt 4 ESCAPE  &custom_mod_tap RIGHT_GUI EQUAL
             >;
         };
 
