@@ -3,7 +3,7 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 2100
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 60
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 30
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
