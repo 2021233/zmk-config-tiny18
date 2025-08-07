@@ -149,14 +149,14 @@
 
         comma {
             bindings = <&kp COMMA>;
-            key-positions = <8 15>;
-            layers = <0>;
+            key-positions = <11 10>;
+            layers = <1>;
         };
 
         period {
             bindings = <&kp PERIOD>;
-            key-positions = <11 16>;
-            layers = <0>;
+            key-positions = <11 12>;
+            layers = <1>;
         };
 
         tilde {
@@ -205,19 +205,19 @@
 
         default {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &kp A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &kp L  &cmt LEFT_GUI BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &mt RIGHT_GUI MINUS
+&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &kp MINUS
             >;
         };
 
         number_cursor {
             bindings = <
-&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &cmt LEFT_GUI DELETE  &clt 3 TAB  &trans  &kp RIGHT_GUI
+&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &cmt LEFT_GUI N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &cmt RIGHT_GUI RIGHT_ARROW  &kp DEL  &clt 3 TAB  &trans  &none
             >;
         };
 
         function {
             bindings = <
-&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &kp LEFT_GUI  &trans  &clt 4 ESCAPE  &cmt RIGHT_GUI EQUAL
+&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &cmt LEFT_GUI F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &cmt RIGHT_GUI END  &none  &trans  &clt 4 ESCAPE  &kp EQUAL
             >;
         };
 
