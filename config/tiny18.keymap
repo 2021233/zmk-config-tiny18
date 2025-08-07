@@ -9,11 +9,15 @@
 &mmv {
     time-to-max-speed-ms = <100>;
     trigger-period-ms = <8>;
+    x-input-code = <600>;
+    y-input-code = <(-600)>;
 };
 
 &msc {
     time-to-max-speed-ms = <100>;
     trigger-period-ms = <8>;
+    x-input-code = <600>;
+    y-input-code = <600>;
 };
 
 / {
