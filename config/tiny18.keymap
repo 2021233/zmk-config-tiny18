@@ -156,14 +156,25 @@
 
         f11 {
             bindings = <&kp F11>;
-            key-positions = <8 7>;
+            key-positions = <7 8>;
             layers = <2>;
         };
 
         f12 {
             bindings = <&kp F12>;
-            key-positions = <9 8>;
+            key-positions = <8 9>;
             layers = <2>;
+        };
+    };
+
+    behaviors {
+        hold_tap_override: hold_tap_override {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP_OVERRIDE";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <120>;
         };
     };
 
@@ -184,7 +195,7 @@
 
         function {
             bindings = <
-&mt LEFT_SHIFT F1  &mt LEFT_CONTROL F2  &mt LEFT_ALT F3  &mt RIGHT_ALT F4  &mt RIGHT_CONTROL F5  &mt RIGHT_SHIFT F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &kp LEFT_GUI  &trans  &lt 4 ESCAPE  &mt RIGHT_GUI EQUAL
+&mt LEFT_SHIFT F1  &mt LEFT_CONTROL F2  &mt LEFT_ALT F3  &mt RIGHT_ALT F4  &mt RIGHT_CONTROL F5  &mt RIGHT_SHIFT F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &kp LEFT_GUI  &trans  &lt 4 ESCAPE  &hold_tap_override RIGHT_GUI EQUAL
             >;
         };
 
