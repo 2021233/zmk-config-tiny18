@@ -168,7 +168,7 @@
     };
 
     behaviors {
-        custom_mod_tap: custom_mod_tap {
+        cmt: custom_mod_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "CUSTOM_MOD_TAP";
             bindings = <&kp>, <&kp>;
@@ -177,7 +177,7 @@
             tapping-term-ms = <120>;
         };
 
-        custom_layer_tap: custom_layer_tap {
+        clt: custom_layer_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "CUSTOM_LAYER_TAP";
             bindings = <&mo>, <&kp>;
@@ -192,25 +192,25 @@
 
         default {
             bindings = <
-&custom_mod_tap LEFT_SHIFT W  &custom_mod_tap LEFT_CONTROL E  &custom_mod_tap LEFT_ALT T  &mt RIGHT_ALT Y  &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT M  &kp A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &kp L  &custom_mod_tap LEFT_GUI BACKSPACE  &custom_layer_tap 2 SPACE  &custom_layer_tap 1 ENTER  &mt RIGHT_GUI MINUS
+&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &kp A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &kp L  &cmt LEFT_GUI BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &mt RIGHT_GUI MINUS
             >;
         };
 
         number_cursor {
             bindings = <
-&mt LEFT_SHIFT NUMBER_1  &mt LEFT_CONTROL NUMBER_2  &mt LEFT_ALT NUMBER_3  &mt RIGHT_ALT NUMBER_4  &mt RIGHT_CONTROL N5  &mt RIGHT_SHIFT NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &mt LEFT_GUI DELETE  &lt 3 TAB  &trans  &kp RIGHT_GUI
+&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &cmt LEFT_GUI DELETE  &clt 3 TAB  &trans  &kp RIGHT_GUI
             >;
         };
 
         function {
             bindings = <
-&mt LEFT_SHIFT F1  &mt LEFT_CONTROL F2  &mt LEFT_ALT F3  &mt RIGHT_ALT F4  &mt RIGHT_CONTROL F5  &mt RIGHT_SHIFT F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &kp LEFT_GUI  &trans  &lt 4 ESCAPE  &custom_mod_tap RIGHT_GUI EQUAL
+&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &kp LEFT_GUI  &trans  &clt 4 ESCAPE  &cmt RIGHT_GUI EQUAL
             >;
         };
 
         mouse {
             bindings = <
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp ALT_ERASE  &none  &msc SCRL_DOWN  &msc SCRL_UP  &kp LEFT_GUI  &mkp MB4  &mkp MB3  &mkp MB5  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &trans  &mkp MB1  &mkp MB2
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &none  &msc SCRL_DOWN  &msc SCRL_UP  &kp LEFT_GUI  &mkp MB4  &mkp MB3  &mkp MB5  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none  &trans  &mkp MB1  &mkp MB2
             >;
         };
 
