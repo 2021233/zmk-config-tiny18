@@ -8,10 +8,13 @@
 
 &mmv {
     time-to-max-speed-ms = <100>;
-    trigger-period-ms = <0>;
+    trigger-period-ms = <8>;
 };
 
-&msc { time-to-max-speed-ms = <100>; };
+&msc {
+    time-to-max-speed-ms = <100>;
+    trigger-period-ms = <8>;
+};
 
 / {
     combos {
