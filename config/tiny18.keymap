@@ -114,13 +114,13 @@
         colon {
             bindings = <&kp SEMICOLON>;
             key-positions = <10 11>;
-            layers = <2>;
+            layers = <1>;
         };
 
         quote {
             bindings = <&kp SQT>;
             key-positions = <12 11>;
-            layers = <2>;
+            layers = <1>;
         };
 
         z {
@@ -147,16 +147,16 @@
             layers = <0>;
         };
 
-        comma {
-            bindings = <&kp COMMA>;
-            key-positions = <11 10>;
-            layers = <1>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 15>;
+            layers = <0>;
         };
 
-        period {
-            bindings = <&kp PERIOD>;
-            key-positions = <11 12>;
-            layers = <1>;
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <7 15>;
+            layers = <0>;
         };
 
         tilde {
@@ -207,7 +207,7 @@
 
         default {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &kp MINUS
+&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp COMMA  &clt 2 SPACE  &clt 1 ENTER  &kp PERIOD
             >;
         };
 
