@@ -179,7 +179,7 @@
 
         comma {
             bindings = <&kp COMMA>;
-            key-positions = <11 17>;
+            key-positions = <11 16>;
             layers = <0>;
         };
 
