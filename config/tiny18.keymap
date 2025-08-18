@@ -188,6 +188,18 @@
             key-positions = <12 16>;
             layers = <0>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <11 12>;
+            layers = <2>;
+        };
+
+        plus {
+            bindings = <&kp EQUAL>;
+            key-positions = <11 10>;
+            layers = <2>;
+        };
     };
 
     behaviors {
