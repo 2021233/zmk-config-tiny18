@@ -219,7 +219,7 @@
 
         default {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp DELETE  &clt 2 SPACE  &clt 1 ENTER  &kp BACKSPACE
+&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &kp DELETE
             >;
         };
 
