@@ -39,6 +39,12 @@
             layers = <0>;
         };
 
+        x2 {
+            bindings = <&kp X>;
+            key-positions = <3 5>;
+            layers = <0>;
+        };
+
         i {
             bindings = <&kp I>;
             key-positions = <10 11>;
@@ -66,6 +72,12 @@
         q {
             bindings = <&kp Q>;
             key-positions = <1 0 2>;
+            layers = <0>;
+        };
+
+        q2 {
+            bindings = <&kp Q>;
+            key-positions = <1 2>;
             layers = <0>;
         };
 
