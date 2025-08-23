@@ -191,13 +191,13 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <11 12>;
+            key-positions = <10 11>;
             layers = <2>;
         };
 
         plus {
             bindings = <&kp EQUAL>;
-            key-positions = <11 10>;
+            key-positions = <12 11>;
             layers = <2>;
         };
     };
