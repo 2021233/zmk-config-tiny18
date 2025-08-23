@@ -65,19 +65,19 @@
 
         r {
             bindings = <&kp R>;
-            key-positions = <1 0>;
+            key-positions = <0 1>;
             layers = <0>;
         };
 
         q {
             bindings = <&kp Q>;
-            key-positions = <1 0 2>;
+            key-positions = <0 1 2>;
             layers = <0>;
         };
 
         q2 {
             bindings = <&kp Q>;
-            key-positions = <1 2>;
+            key-positions = <0 2>;
             layers = <0>;
         };
 
