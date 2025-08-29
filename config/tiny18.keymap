@@ -237,13 +237,13 @@
 
         number_cursor {
             bindings = <
-&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &cmt LEFT_GUI N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &cmt RIGHT_GUI RIGHT_ARROW  &trans  &clt 3 TAB  &trans  &trans
+&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &cmt LEFT_GUI N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &cmt RIGHT_GUI RIGHT_ARROW  &kp DELETE  &clt 3 TAB  &trans  &kp BACKSPACE
             >;
         };
 
         function {
             bindings = <
-&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &cmt LEFT_GUI F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &cmt RIGHT_GUI END  &trans  &trans  &clt 4 ESCAPE  &trans
+&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &cmt LEFT_GUI F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &cmt RIGHT_GUI END  &kp DELETE  &trans  &clt 4 ESCAPE  &kp BACKSPACE
             >;
         };
 
