@@ -21,8 +21,8 @@
     combos {
         compatible = "zmk,combos";
 
-        f {
-            bindings = <&kp F>;
+        t {
+            bindings = <&kp T>;
             key-positions = <3 4>;
             layers = <0>;
         };
@@ -57,8 +57,8 @@
             layers = <0>;
         };
 
-        t {
-            bindings = <&kp T>;
+        f {
+            bindings = <&kp F>;
             key-positions = <2 1>;
             layers = <0>;
         };
