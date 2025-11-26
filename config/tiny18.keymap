@@ -21,14 +21,14 @@
     combos {
         compatible = "zmk,combos";
 
-        t {
-            bindings = <&kp T>;
+        u {
+            bindings = <&kp I>;
             key-positions = <3 4>;
             layers = <0>;
         };
 
-        y {
-            bindings = <&kp Y>;
+        p {
+            bindings = <&kp P>;
             key-positions = <4 5>;
             layers = <0>;
         };
@@ -45,14 +45,14 @@
             layers = <0>;
         };
 
-        n {
-            bindings = <&kp N>;
+        i {
+            bindings = <&kp I>;
             key-positions = <10 11>;
             layers = <0>;
         };
 
-        m {
-            bindings = <&kp M>;
+        o {
+            bindings = <&kp O>;
             key-positions = <11 12>;
             layers = <0>;
         };
@@ -200,6 +200,11 @@
             key-positions = <12 11>;
             layers = <2>;
         };
+
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <9 10>;
+        };
     };
 
     behaviors {
@@ -231,7 +236,7 @@
 
         default {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT U  &cmt RIGHT_ALT I  &cmt RIGHT_CONTROL O  &cmt RIGHT_SHIFT P  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &kp DELETE
+&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &kp DELETE
             >;
         };
 
