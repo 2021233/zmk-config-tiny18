@@ -183,10 +183,34 @@
             layers = <0>;
         };
 
-        tosubupper {
+        tosub_upper {
             bindings = <&mo 3>;
             key-positions = <15 16>;
             layers = <3>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <4 5>;
+            layers = <4>;
+        };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <1 2>;
+            layers = <4>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <4 3>;
+            layers = <4>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <9 8>;
+            layers = <4>;
         };
     };
 
