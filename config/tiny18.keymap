@@ -248,13 +248,13 @@
 
         sub {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &trans  &trans  &trans  &trans
+&cmt LEFT_SHIFT Q  &cmt LEFT_CONTROL R  &cmt LEFT_ALT F  &cmt RIGHT_ALT B  &cmt RIGHT_CONTROL COMMA  &cmt PERIOD M  &cmt LEFT_GUI Z  &kp X  &kp C  &kp V  &kp U  &kp I  &kp O  &cmt RIGHT_GUI P  &trans  &trans  &trans  &trans
             >;
         };
 
         SUB {
             bindings = <
-&kp A  &kp E  &kp T  &kp Y  &kp N  &kp M  &kp A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &kp L  &trans  &trans  &trans  &trans
+&kp LS(A)  &kp LS(E)  &kp LS(T)  &kp RS(Y)  &kp COMMA  &kp PERIOD  &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(G)  &kp RS(H)  &kp RS(J)  &kp RS(K)  &kp RS(L)  &trans  &trans  &trans  &trans
             >;
         };
 
