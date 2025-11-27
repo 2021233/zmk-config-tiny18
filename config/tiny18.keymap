@@ -100,67 +100,67 @@
         };
 
         p_upper {
-            bindings = <&kp P>;
+            bindings = <&kp RS(P)>;
             key-positions = <4 5>;
             layers = <1>;
         };
 
         x_upper {
-            bindings = <&kp X>;
+            bindings = <&kp RS(X)>;
             key-positions = <3 5>;
             layers = <1>;
         };
 
         i_upper {
-            bindings = <&kp I>;
+            bindings = <&kp RS(I)>;
             key-positions = <10 11>;
             layers = <1>;
         };
 
         o_upper {
-            bindings = <&kp O>;
+            bindings = <&kp RS(O)>;
             key-positions = <11 12>;
             layers = <1>;
         };
 
         f_upper {
-            bindings = <&kp F>;
+            bindings = <&kp LS(F)>;
             key-positions = <2 1>;
             layers = <1>;
         };
 
         r_upper {
-            bindings = <&kp R>;
+            bindings = <&kp LS(R)>;
             key-positions = <0 1>;
             layers = <1>;
         };
 
         q_upper {
-            bindings = <&kp Q>;
+            bindings = <&kp LS(Q)>;
             key-positions = <0 2>;
             layers = <1>;
         };
 
         v_upper {
-            bindings = <&kp V>;
+            bindings = <&kp LS(V)>;
             key-positions = <9 8>;
             layers = <1>;
         };
 
         c_upper {
-            bindings = <&kp C>;
+            bindings = <&kp LS(C)>;
             key-positions = <7 8>;
             layers = <1>;
         };
 
         z_upper {
-            bindings = <&kp Z>;
+            bindings = <&kp LS(Z)>;
             key-positions = <7 9>;
             layers = <1>;
         };
 
         b_upper {
-            bindings = <&kp B>;
+            bindings = <&kp RS(B)>;
             key-positions = <10 12>;
             layers = <1>;
         };
