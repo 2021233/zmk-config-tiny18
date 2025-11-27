@@ -20,7 +20,6 @@
 / {
     combos {
         compatible = "zmk,combos";
-
         u {
             bindings = <&kp U>;
             key-positions = <3 4>;
@@ -34,6 +33,12 @@
         };
 
         x {
+            bindings = <&kp X>;
+            key-positions = <3 4 5>;
+            layers = <0>;
+        };
+
+        x2 {
             bindings = <&kp X>;
             key-positions = <3 5>;
             layers = <0>;
@@ -65,6 +70,12 @@
 
         q {
             bindings = <&kp Q>;
+            key-positions = <0 1 2>;
+            layers = <0>;
+        };
+
+        q2 {
+            bindings = <&kp Q>;
             key-positions = <0 2>;
             layers = <0>;
         };
@@ -81,9 +92,57 @@
             layers = <0>;
         };
 
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <0 1>;
+            layers = <1>;
+        };
+
+        leftbracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <2 1>;
+            layers = <1>;
+        };
+
+        rightbraket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <3 4>;
+            layers = <1>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <4 5>;
+            layers = <1>;
+        };
+
+        medialayer {
+            bindings = <&mo 5>;
+            key-positions = <6 13>;
+            layers = <0>;
+        };
+
+        colon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <10 11>;
+            layers = <1>;
+        };
+
+        quote {
+            bindings = <&kp SQT>;
+            key-positions = <12 11>;
+            layers = <1>;
+        };
+
         z {
             bindings = <&kp Z>;
             key-positions = <7 9>;
+            layers = <0>;
+        };
+
+        z_2 {
+            bindings = <&kp Z>;
+            key-positions = <7 9 8>;
             layers = <0>;
         };
 
@@ -93,160 +152,57 @@
             layers = <0>;
         };
 
-        medialayer {
-            bindings = <&mo 6>;
-            key-positions = <6 13>;
-            layers = <0 1>;
-        };
-
-        p_upper {
-            bindings = <&kp RS(P)>;
-            key-positions = <4 5>;
-            layers = <1>;
-        };
-
-        x_upper {
-            bindings = <&kp RS(X)>;
-            key-positions = <3 5>;
-            layers = <1>;
-        };
-
-        i_upper {
-            bindings = <&kp RS(I)>;
-            key-positions = <10 11>;
-            layers = <1>;
-        };
-
-        o_upper {
-            bindings = <&kp RS(O)>;
-            key-positions = <11 12>;
-            layers = <1>;
-        };
-
-        f_upper {
-            bindings = <&kp LS(F)>;
-            key-positions = <2 1>;
-            layers = <1>;
-        };
-
-        r_upper {
-            bindings = <&kp LS(R)>;
-            key-positions = <0 1>;
-            layers = <1>;
-        };
-
-        q_upper {
-            bindings = <&kp LS(Q)>;
-            key-positions = <0 2>;
-            layers = <1>;
-        };
-
-        v_upper {
-            bindings = <&kp LS(V)>;
-            key-positions = <9 8>;
-            layers = <1>;
-        };
-
-        c_upper {
-            bindings = <&kp LS(C)>;
-            key-positions = <7 8>;
-            layers = <1>;
-        };
-
-        z_upper {
-            bindings = <&kp LS(Z)>;
-            key-positions = <7 9>;
-            layers = <1>;
-        };
-
-        b_upper {
-            bindings = <&kp RS(B)>;
-            key-positions = <10 12>;
-            layers = <1>;
-        };
-
-        backslash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <0 1>;
-            layers = <4>;
-        };
-
-        caps {
-            bindings = <&tog 1>;
-            key-positions = <9 10>;
-            layers = <0 1>;
-        };
-
-        tosub {
-            bindings = <&mo 2>;
-            key-positions = <15 16>;
+        b_2 {
+            bindings = <&kp B>;
+            key-positions = <10 12 11>;
             layers = <0>;
         };
 
-        tosub_upper {
-            bindings = <&mo 3>;
-            key-positions = <15 16>;
-            layers = <3>;
-        };
-
-        slash {
-            bindings = <&kp SLASH>;
-            key-positions = <4 5>;
-            layers = <4>;
-        };
-
-        left_bracket {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <1 2>;
-            layers = <4>;
-        };
-
-        right_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <4 3>;
-            layers = <4>;
-        };
-
-        grave {
+        tilde {
             bindings = <&kp GRAVE>;
-            key-positions = <9 8>;
-            layers = <4>;
+            key-positions = <8 9>;
+            layers = <1>;
         };
 
         f11 {
             bindings = <&kp F11>;
             key-positions = <7 8>;
-            layers = <5>;
+            layers = <2>;
         };
 
         f12 {
             bindings = <&kp F12>;
             key-positions = <8 9>;
-            layers = <5>;
+            layers = <2>;
         };
 
         comma {
             bindings = <&kp COMMA>;
-            key-positions = <16 11>;
-            layers = <0 1>;
+            key-positions = <11 16>;
+            layers = <0>;
         };
 
         period {
             bindings = <&kp PERIOD>;
-            key-positions = <16 12>;
-            layers = <0 1>;
+            key-positions = <12 16>;
+            layers = <0>;
         };
 
-        colon {
-            bindings = <&kp SEMICOLON>;
+        minus {
+            bindings = <&kp MINUS>;
             key-positions = <10 11>;
-            layers = <4>;
+            layers = <2>;
         };
 
-        quote {
-            bindings = <&kp SQT>;
-            key-positions = <11 12>;
-            layers = <4>;
+        plus {
+            bindings = <&kp EQUAL>;
+            key-positions = <12 11>;
+            layers = <2>;
+        };
+
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <9 10>;
         };
     };
 
