@@ -202,8 +202,20 @@
         };
 
         caps_lock {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&tog 1>;
             key-positions = <9 10>;
+            layers = <0 1>;
+        };
+
+        sub {
+            bindings = <&mo 2>;
+            key-positions = <15 16>;
+            layers = <0>;
+        };
+
+        SUB {
+            bindings = <&mo 3>;
+            key-positions = <15 16>;
         };
     };
 
