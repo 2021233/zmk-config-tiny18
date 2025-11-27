@@ -196,7 +196,7 @@
         };
 
         x_upper {
-            bindings = <&kp X>;
+            bindings = <&kp RS(X)>;
             key-positions = <3 5>;
             layers = <1>;
         };
