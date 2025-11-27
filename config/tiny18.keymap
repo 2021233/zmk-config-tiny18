@@ -240,21 +240,21 @@
             >;
         };
 
-        caps_default {
+        DEFAULT {
             bindings = <
-&kp LEFT_SHIFT  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &trans  &trans  &trans  &trans
+&kp A  &kp E  &kp T  &kp Y  &kp N  &kp M  &kp A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &kp L  &trans  &trans  &trans  &trans
             >;
         };
 
         sub {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &kp DELETE
+&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &trans  &trans  &trans  &trans
             >;
         };
 
-        caps_sub {
+        SUB {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &kp DELETE
+&kp A  &kp E  &kp T  &kp Y  &kp N  &kp M  &kp A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &kp L  &trans  &trans  &trans  &trans
             >;
         };
 
