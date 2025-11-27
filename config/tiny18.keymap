@@ -96,7 +96,7 @@
         medialayer {
             bindings = <&mo 8>;
             key-positions = <6 13>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         p_upper {
@@ -210,6 +210,42 @@
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <9 8>;
+            layers = <4>;
+        };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <7 8>;
+            layers = <5>;
+        };
+
+        f12 {
+            bindings = <&kp F12>;
+            key-positions = <8 9>;
+            layers = <5>;
+        };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <16 11>;
+            layers = <0 1>;
+        };
+
+        period {
+            bindings = <&kp PERIOD>;
+            key-positions = <16 12>;
+            layers = <0 1>;
+        };
+
+        colon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <10 11>;
+            layers = <4>;
+        };
+
+        quote {
+            bindings = <&kp SQT>;
+            key-positions = <11 12>;
             layers = <4>;
         };
     };
