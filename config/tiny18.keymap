@@ -94,7 +94,7 @@
         };
 
         medialayer {
-            bindings = <&mo 8>;
+            bindings = <&mo 6>;
             key-positions = <6 13>;
             layers = <0 1>;
         };
@@ -286,18 +286,6 @@
         DEFAULT {
             bindings = <
 &kp LS(W)  &kp LS(E)  &kp LS(T)  &kp RS(Y)  &kp RS(N)  &kp RS(M)  &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(G)  &kp RS(H)  &kp RS(J)  &kp RS(K)  &kp RS(L)  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        sub {
-            bindings = <
-&cmt LEFT_SHIFT Q  &cmt LEFT_CONTROL R  &cmt LEFT_ALT F  &cmt RIGHT_ALT B  &cmt RIGHT_CONTROL COMMA  &cmt PERIOD M  &cmt LEFT_GUI Z  &kp X  &kp C  &kp V  &kp U  &kp I  &kp O  &cmt RIGHT_GUI P  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        SUB {
-            bindings = <
-&kp LS(A)  &kp LS(E)  &kp LS(T)  &kp RS(Y)  &kp COMMA  &kp PERIOD  &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(G)  &kp RS(H)  &kp RS(J)  &kp RS(K)  &kp RS(L)  &trans  &trans  &trans  &trans
             >;
         };
 
