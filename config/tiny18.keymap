@@ -20,6 +20,7 @@
 / {
     combos {
         compatible = "zmk,combos";
+
         u {
             bindings = <&kp U>;
             key-positions = <3 4>;
@@ -33,12 +34,6 @@
         };
 
         x {
-            bindings = <&kp X>;
-            key-positions = <3 4 5>;
-            layers = <0>;
-        };
-
-        x2 {
             bindings = <&kp X>;
             key-positions = <3 5>;
             layers = <0>;
@@ -69,12 +64,6 @@
         };
 
         q {
-            bindings = <&kp Q>;
-            key-positions = <0 1 2>;
-            layers = <0>;
-        };
-
-        q2 {
             bindings = <&kp Q>;
             key-positions = <0 2>;
             layers = <0>;
@@ -140,21 +129,9 @@
             layers = <0>;
         };
 
-        z_2 {
-            bindings = <&kp Z>;
-            key-positions = <7 9 8>;
-            layers = <0>;
-        };
-
         b {
             bindings = <&kp B>;
             key-positions = <10 12>;
-            layers = <0>;
-        };
-
-        b_2 {
-            bindings = <&kp B>;
-            key-positions = <10 12 11>;
             layers = <0>;
         };
 
