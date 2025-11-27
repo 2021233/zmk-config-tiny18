@@ -285,7 +285,7 @@
 
         default {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 5 SPACE  &clt 4 ENTER  &kp DELETE
+&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 3 SPACE  &clt 2 ENTER  &kp DELETE
             >;
         };
 
@@ -297,13 +297,13 @@
 
         number_cursor {
             bindings = <
-&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &cmt LEFT_GUI N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &cmt RIGHT_GUI RIGHT_ARROW  &kp DELETE  &clt 6 TAB  &trans  &kp BACKSPACE
+&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &cmt LEFT_GUI N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &cmt RIGHT_GUI RIGHT_ARROW  &kp DELETE  &clt 4 TAB  &trans  &kp BACKSPACE
             >;
         };
 
         function {
             bindings = <
-&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &cmt LEFT_GUI F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &cmt RIGHT_GUI END  &kp DELETE  &trans  &clt 7 ESCAPE  &kp BACKSPACE
+&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &cmt LEFT_GUI F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &cmt RIGHT_GUI END  &kp DELETE  &trans  &clt 5 ESCAPE  &kp BACKSPACE
             >;
         };
 
