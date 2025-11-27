@@ -242,7 +242,7 @@
 
         DEFAULT {
             bindings = <
-&kp A  &kp E  &kp T  &kp Y  &kp N  &kp M  &kp A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &kp L  &trans  &trans  &trans  &trans
+&kp LS(W)  &kp LS(E)  &kp LS(T)  &kp RS(Y)  &kp RS(N)  &kp RS(M)  &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(G)  &kp RS(H)  &kp RS(J)  &kp RS(K)  &kp RS(L)  &trans  &trans  &trans  &trans
             >;
         };
 
