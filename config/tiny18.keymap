@@ -25,7 +25,7 @@
             bindings = <&kp U>;
             key-positions = <3 4>;
             layers = <0>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         p {
@@ -38,21 +38,21 @@
             bindings = <&kp X>;
             key-positions = <3 5>;
             layers = <0>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         i {
             bindings = <&kp I>;
             key-positions = <10 11>;
             layers = <0>;
-            timeout-ms = <100>;
+            timeout-ms = <80>;
         };
 
         o {
             bindings = <&kp O>;
             key-positions = <11 12>;
             layers = <0>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         f {
@@ -65,14 +65,14 @@
             bindings = <&kp R>;
             key-positions = <0 1>;
             layers = <0>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         q {
             bindings = <&kp Q>;
             key-positions = <0 2>;
             layers = <0>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         v {
@@ -133,14 +133,14 @@
             bindings = <&kp Z>;
             key-positions = <7 9>;
             layers = <0>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         b {
             bindings = <&kp B>;
             key-positions = <10 12>;
             layers = <0>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         tilde {
@@ -195,7 +195,7 @@
             bindings = <&kp RS(U)>;
             key-positions = <3 4>;
             layers = <1>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         p_upper {
@@ -208,7 +208,7 @@
             bindings = <&kp RS(X)>;
             key-positions = <3 5>;
             layers = <1>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         i_upper {
@@ -222,7 +222,7 @@
             bindings = <&kp RS(O)>;
             key-positions = <11 12>;
             layers = <1>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         f_upper {
@@ -235,14 +235,14 @@
             bindings = <&kp LS(R)>;
             key-positions = <0 1>;
             layers = <1>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         q_upper {
             bindings = <&kp LS(Q)>;
             key-positions = <0 2>;
             layers = <1>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         v_upper {
@@ -261,14 +261,14 @@
             bindings = <&kp LS(Z)>;
             key-positions = <7 9>;
             layers = <1>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         b_upper {
             bindings = <&kp RS(B)>;
             key-positions = <10 12>;
             layers = <1>;
-            timeout-ms = <100>;
+            timeout-ms = <90>;
         };
 
         caps_unlock {
