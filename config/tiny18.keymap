@@ -271,10 +271,16 @@
             timeout-ms = <90>;
         };
 
-        caps_unlock {
+        reset {
             bindings = <&to 0>;
             key-positions = <9 10>;
-            layers = <1>;
+            layers = <1 5>;
+        };
+
+        toble {
+            bindings = <&to 5>;
+            key-positions = <9 10>;
+            layers = <3>;
         };
     };
 
@@ -325,7 +331,7 @@
 
         function {
             bindings = <
-&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &cmt LEFT_GUI F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &cmt RIGHT_GUI END  &kp DELETE  &trans  &clt 5 ESCAPE  &kp BACKSPACE
+&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &cmt LEFT_GUI F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &cmt RIGHT_GUI END  &kp DELETE  &trans  &kp ESCAPE  &kp BACKSPACE
             >;
         };
 
