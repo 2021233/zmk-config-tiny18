@@ -319,7 +319,7 @@
 
         number_cursor {
             bindings = <
-&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &cmt LEFT_GUI N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &cmt RIGHT_GUI RIGHT_ARROW  &kp DELETE  &clt 4 TAB  &trans  &kp BACKSPACE
+&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &cmt LEFT_GUI N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &cmt RIGHT_GUI RIGHT_ARROW  &clt 4 DELETE  &kp TAB  &trans  &kp BACKSPACE
             >;
         };
 
