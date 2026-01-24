@@ -174,9 +174,9 @@
         };
 
         caps_lock {
-            bindings = <&to 1>;
+            bindings = <&tog 1>;
             key-positions = <0 5>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         u_upper {
@@ -257,18 +257,6 @@
             key-positions = <10 12>;
             layers = <1>;
             timeout-ms = <90>;
-        };
-
-        caps_unlock {
-            bindings = <&to 0>;
-            key-positions = <0 5>;
-            layers = <1>;
-        };
-
-        media_unlock {
-            bindings = <&to 0>;
-            key-positions = <6 13>;
-            layers = <4>;
         };
     };
 
