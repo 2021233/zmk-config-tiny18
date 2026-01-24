@@ -173,18 +173,6 @@
             layers = <0 1>;
         };
 
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <10 11>;
-            layers = <3>;
-        };
-
-        plus {
-            bindings = <&kp EQUAL>;
-            key-positions = <12 11>;
-            layers = <3>;
-        };
-
         caps_lock {
             bindings = <&to 1>;
             key-positions = <9 10>;
