@@ -267,14 +267,14 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <16 4>;
-            layers = <1 0>;
+            key-positions = <16 11>;
+            layers = <3>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <5 16>;
-            layers = <0 1>;
+            key-positions = <16 12>;
+            layers = <3>;
         };
     };
 
