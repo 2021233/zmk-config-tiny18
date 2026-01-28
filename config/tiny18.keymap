@@ -173,90 +173,16 @@
             layers = <0 1>;
         };
 
-        caps_lock {
-            bindings = <&tog 1>;
-            key-positions = <0 5>;
-            layers = <0 1>;
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <13 12>;
+            layers = <0>;
         };
 
-        u_upper {
-            bindings = <&kp RS(U)>;
-            key-positions = <3 4>;
-            layers = <1>;
-            timeout-ms = <90>;
-        };
-
-        p_upper {
-            bindings = <&kp RS(P)>;
-            key-positions = <4 5>;
-            layers = <1>;
-        };
-
-        x_upper {
-            bindings = <&kp RS(X)>;
-            key-positions = <3 5>;
-            layers = <1>;
-            timeout-ms = <90>;
-        };
-
-        i_upper {
-            bindings = <&kp RS(I)>;
-            key-positions = <10 11>;
-            layers = <1>;
-            timeout-ms = <10>;
-        };
-
-        o_upper {
-            bindings = <&kp RS(O)>;
-            key-positions = <11 12>;
-            layers = <1>;
-            timeout-ms = <90>;
-        };
-
-        f_upper {
-            bindings = <&kp LS(F)>;
-            key-positions = <2 1>;
-            layers = <1>;
-        };
-
-        r_upper {
-            bindings = <&kp LS(R)>;
-            key-positions = <0 1>;
-            layers = <1>;
-            timeout-ms = <90>;
-        };
-
-        q_upper {
-            bindings = <&kp LS(Q)>;
-            key-positions = <0 2>;
-            layers = <1>;
-            timeout-ms = <90>;
-        };
-
-        v_upper {
-            bindings = <&kp LS(V)>;
-            key-positions = <9 8>;
-            layers = <1>;
-        };
-
-        c_upper {
-            bindings = <&kp LS(C)>;
-            key-positions = <7 8>;
-            layers = <1>;
-        };
-
-        z_upper {
-            bindings = <&kp LS(Z)>;
-            key-positions = <7 9>;
-            layers = <1>;
-            timeout-ms = <90>;
-        };
-
-        b_upper {
-            bindings = <&kp RS(B)>;
-            key-positions = <10 12>;
-            layers = <1>;
-            timeout-ms = <90>;
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <13 12>;
+            layers = <3>;
         };
     };
 
