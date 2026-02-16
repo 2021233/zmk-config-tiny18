@@ -175,32 +175,20 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <16 4>;
-            layers = <0>;
+            key-positions = <16 11>;
+            layers = <2>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <5 16>;
-            layers = <0 1>;
+            key-positions = <16 12>;
+            layers = <2>;
         };
 
         caps {
             bindings = <&caps_word>;
             key-positions = <0 5>;
             layers = <0>;
-        };
-
-        min {
-            bindings = <&kp MINUS>;
-            key-positions = <10 11>;
-            layers = <2>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <11 12>;
-            layers = <2>;
         };
     };
 
