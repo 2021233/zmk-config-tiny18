@@ -175,13 +175,13 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <1 2>;
+            key-positions = <1 0>;
             layers = <2>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <4 3>;
+            key-positions = <4 5>;
             layers = <2>;
         };
 
