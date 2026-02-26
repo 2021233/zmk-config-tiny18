@@ -29,7 +29,7 @@
         };
 
         p {
-            bindings = <&kp F>;
+            bindings = <&kp P>;
             key-positions = <4 5>;
             layers = <0>;
         };
@@ -56,7 +56,7 @@
         };
 
         f {
-            bindings = <&kp T>;
+            bindings = <&kp F>;
             key-positions = <2 1>;
             layers = <0>;
         };
@@ -221,7 +221,7 @@
 
         default {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT U  &cmt RIGHT_ALT I  &cmt RIGHT_CONTROL O  &cmt RIGHT_SHIFT P  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &none
+&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT U  &cmt RIGHT_CONTROL I  &cmt RIGHT_SHIFT O  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &none
             >;
         };
 
