@@ -21,8 +21,8 @@
     combos {
         compatible = "zmk,combos";
 
-        u {
-            bindings = <&kp Y>;
+        f {
+            bindings = <&kp F>;
             key-positions = <3 4>;
             layers = <0>;
             timeout-ms = <90>;
@@ -41,22 +41,22 @@
             timeout-ms = <90>;
         };
 
-        i {
+        n {
             bindings = <&kp N>;
             key-positions = <10 11>;
             layers = <0>;
             timeout-ms = <80>;
         };
 
-        o {
+        m {
             bindings = <&kp M>;
             key-positions = <11 12>;
             layers = <0>;
             timeout-ms = <90>;
         };
 
-        f {
-            bindings = <&kp F>;
+        y {
+            bindings = <&kp Y>;
             key-positions = <2 1>;
             layers = <0>;
         };
