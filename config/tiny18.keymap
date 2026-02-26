@@ -22,14 +22,14 @@
         compatible = "zmk,combos";
 
         u {
-            bindings = <&kp U>;
+            bindings = <&kp Y>;
             key-positions = <3 4>;
             layers = <0>;
             timeout-ms = <90>;
         };
 
         p {
-            bindings = <&kp P>;
+            bindings = <&kp F>;
             key-positions = <4 5>;
             layers = <0>;
         };
@@ -42,21 +42,21 @@
         };
 
         i {
-            bindings = <&kp I>;
+            bindings = <&kp N>;
             key-positions = <10 11>;
             layers = <0>;
             timeout-ms = <80>;
         };
 
         o {
-            bindings = <&kp O>;
+            bindings = <&kp M>;
             key-positions = <11 12>;
             layers = <0>;
             timeout-ms = <90>;
         };
 
         f {
-            bindings = <&kp F>;
+            bindings = <&kp T>;
             key-positions = <2 1>;
             layers = <0>;
         };
@@ -221,7 +221,7 @@
 
         default {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &kp MINUS
+&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT U  &cmt RIGHT_ALT I  &cmt RIGHT_CONTROL O  &cmt RIGHT_SHIFT P  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &kp MINUS
             >;
         };
 
