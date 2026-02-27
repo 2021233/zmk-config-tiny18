@@ -21,15 +21,15 @@
     combos {
         compatible = "zmk,combos";
 
-        f {
-            bindings = <&kp F>;
+        n {
+            bindings = <&kp N>;
             key-positions = <3 4>;
             layers = <0>;
             timeout-ms = <90>;
         };
 
-        p {
-            bindings = <&kp P>;
+        m {
+            bindings = <&kp M>;
             key-positions = <4 5>;
             layers = <0>;
         };
@@ -41,22 +41,22 @@
             timeout-ms = <90>;
         };
 
-        n {
-            bindings = <&kp N>;
+        y {
+            bindings = <&kp Y>;
             key-positions = <10 11>;
             layers = <0>;
             timeout-ms = <80>;
         };
 
-        m {
-            bindings = <&kp M>;
+        p {
+            bindings = <&kp P>;
             key-positions = <11 12>;
             layers = <0>;
             timeout-ms = <90>;
         };
 
-        y {
-            bindings = <&kp Y>;
+        f {
+            bindings = <&kp F>;
             key-positions = <2 1>;
             layers = <0>;
         };
