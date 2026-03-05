@@ -190,12 +190,6 @@
             key-positions = <0 5>;
             layers = <0>;
         };
-
-        y_2 {
-            bindings = <&kp Y>;
-            key-positions = <0 1 2>;
-            layers = <0>;
-        };
     };
 
     behaviors {
