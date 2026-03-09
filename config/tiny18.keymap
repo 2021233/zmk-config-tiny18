@@ -25,7 +25,6 @@
             bindings = <&kp N>;
             key-positions = <3 4>;
             layers = <0>;
-            timeout-ms = <90>;
         };
 
         m {
@@ -38,7 +37,6 @@
             bindings = <&kp X>;
             key-positions = <3 5>;
             layers = <0>;
-            timeout-ms = <90>;
         };
 
         y {
@@ -52,7 +50,6 @@
             bindings = <&kp P>;
             key-positions = <11 12>;
             layers = <0>;
-            timeout-ms = <90>;
         };
 
         f {
@@ -65,14 +62,12 @@
             bindings = <&kp R>;
             key-positions = <0 1>;
             layers = <0>;
-            timeout-ms = <90>;
         };
 
         q {
             bindings = <&kp Q>;
             key-positions = <0 2>;
             layers = <0>;
-            timeout-ms = <90>;
         };
 
         v {
@@ -133,14 +128,12 @@
             bindings = <&kp Z>;
             key-positions = <7 9>;
             layers = <0>;
-            timeout-ms = <90>;
         };
 
         b {
             bindings = <&kp B>;
             key-positions = <10 12>;
             layers = <0>;
-            timeout-ms = <90>;
         };
 
         tilde {
