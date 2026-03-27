@@ -183,6 +183,11 @@
             key-positions = <0 5>;
             layers = <0>;
         };
+
+        y2 {
+            bindings = <&kp Y>;
+            key-positions = <8 15>;
+        };
     };
 
     behaviors {
