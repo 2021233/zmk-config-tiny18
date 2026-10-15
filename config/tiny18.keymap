@@ -221,19 +221,19 @@
 
         default {
             bindings = <
-&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &cmt LEFT_GUI A  &kp S  &kp D  &kp G  &kp H  &kp J  &kp K  &cmt RIGHT_GUI L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &none
+&cmt LEFT_SHIFT W  &cmt LEFT_CONTROL E  &cmt LEFT_ALT T  &cmt RIGHT_ALT Y  &cmt RIGHT_CONTROL N  &cmt RIGHT_SHIFT M  &kp A  &kp S  &kp D  &cmt LEFT_GUI G  &cmt RIGHT_GUI H  &kp J  &kp K  &kp L  &kp BACKSPACE  &clt 2 SPACE  &clt 1 ENTER  &none
             >;
         };
 
         number_cursor {
             bindings = <
-&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &cmt LEFT_GUI N7  &kp N8  &kp N9  &kp N0  &kp LEFT  &kp DOWN  &kp UP_ARROW  &cmt RIGHT_GUI RIGHT_ARROW  &kp DELETE  &clt 2 TAB  &clt 1 ESCAPE  &kp CAPSLOCK
+&cmt LEFT_SHIFT NUMBER_1  &cmt LEFT_CONTROL NUMBER_2  &cmt LEFT_ALT NUMBER_3  &cmt RIGHT_ALT NUMBER_4  &cmt RIGHT_CONTROL N5  &cmt RIGHT_SHIFT NUMBER_6  &kp N7  &kp N8  &kp N9  &cmt LEFT_GUI N0  &cmt RIGHT_GUI LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp DELETE  &clt 2 TAB  &clt 1 ESCAPE  &kp CAPSLOCK
             >;
         };
 
         function {
             bindings = <
-&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &cmt LEFT_GUI F7  &kp F8  &kp F9  &kp F10  &kp PAGE_UP  &kp PAGE_DOWN  &kp HOME  &cmt RIGHT_GUI END  &kp DELETE  &clt 2 TAB  &clt 1 ESCAPE  &kp EQUAL
+&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT F4  &cmt RIGHT_CONTROL F5  &cmt RIGHT_SHIFT F6  &kp F7  &kp F8  &kp F9  &cmt LEFT_GUI F10  &cmt RIGHT_GUI PAGE_UP  &kp PAGE_DOWN  &kp HOME  &kp END  &kp DELETE  &clt 2 TAB  &clt 1 ESCAPE  &kp EQUAL
             >;
         };
 
@@ -245,7 +245,7 @@
 
         mouse {
             bindings = <
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &none  &msc SCRL_DOWN  &msc SCRL_UP  &kp LEFT_GUI  &mkp MB4  &mkp MB3  &mkp MB5  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp CAPSLOCK  &trans  &mkp MB1  &mkp MB2
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &none  &msc SCRL_DOWN  &msc SCRL_UP  &mkp MB4  &mkp MB3  &mkp MB5  &kp LEFT_GUI  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp CAPSLOCK  &trans  &mkp MB1  &mkp MB2
             >;
         };
 
